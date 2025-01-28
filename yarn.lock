@@ -1191,7 +1191,8 @@ fraction.js@^4.3.7:
 "frontend-projeto-rh@file:.":
   version "0.0.0"
   dependencies:
-    frontend-projeto-rh "file:../../../AppData/Local/Yarn/Cache/v6/npm-frontend-projeto-rh-0.0.0-6bda2e6e-1f99-4686-bf04-2cb507d05439-1738073194153/node_modules/frontend-projeto-rh"
+    "@phosphor-icons/react" "^2.1.7"
+    frontend-projeto-rh "file:../../.cache/yarn/v6/npm-frontend-projeto-rh-0.0.0-3ef97dbd-0d33-49a7-ab14-d6880d1da884-1738082888257/node_modules/frontend-projeto-rh"
     react "^18.3.1"
     react-dom "^18.3.1"
     react-router-dom "^7.1.3"
@@ -1681,7 +1682,7 @@ react-refresh@^0.14.2:
 
 react-router-dom@^7.1.3:
   version "7.1.3"
-  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.1.3.tgz"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-7.1.3.tgz#2788f7c670aa50275e16bb033b9b04b01a45b6dc"
   integrity sha512-qQGTE+77hleBzv9SIUIkGRvuFBQGagW+TQKy53UTZAO/3+YFNBYvRsNIZ1GT17yHbc63FylMOdS+m3oUriF1GA==
   dependencies:
     react-router "7.1.3"
