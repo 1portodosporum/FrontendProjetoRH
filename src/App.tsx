@@ -1,10 +1,11 @@
 import './App.css'
+import FormDepartamento from './components/departamentos/formdepartamento/FormDepartamento'
 
 function App() {
 
   return (
     <>
-     <p>RH System - Team One</p>
+      <FormDepartamento />
     </>
   )
 }
