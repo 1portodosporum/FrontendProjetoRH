@@ -7,7 +7,6 @@ import Home from './pages/home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router';
 import About from './pages/about/About';
 import FormFuncionario from './components/funcionarios/formfuncionarios/FormFuncionario';
-import Product from './pages/products/Product';
 import ListarFuncionarios from './components/funcionarios/listarfuncionarios/ListarFuncionarios';
 
 function App() {
@@ -15,12 +14,11 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="min-h-[80vh]">
+        <div className="min-h-[75vh]">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/product" element={<Product />} />
             <Route path="/form" element={<FormFuncionario />} />
             <Route path="/list" element={<ListarFuncionarios />} />
           </Routes>

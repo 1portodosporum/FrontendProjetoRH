@@ -4,7 +4,7 @@ function About() {
       <div
         style={{
           width: '100vw',
-          height: '100vh',
+          height: '75vh',
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'flex-start',
@@ -30,18 +30,24 @@ function About() {
               marginTop: '0',
               marginBottom: '10px',
             }}>
-            Sobre nós!
+            Cultura da Nossa Empresa
           </h2>
           <p>
-            Somos uma empresa dedicada a facilitar e otimizar a gestão de pessoas e processos em sua
-            organização. Nosso sistema de RH foi desenvolvido para economizar tempo, melhorar a eficiência e
-            criar uma experiência mais ágil para sua equipe.
+            Aqui, acreditamos que as pessoas são o coração de tudo o que fazemos. Nossa cultura é guiada pela colaboração, inovação e respeito mútuo, criando um ambiente onde todos podem crescer e contribuir com ideias que fazem a diferença.
+
           </p>
           <p>
-            Nosso objetivo é transformar a maneira como você gerencia talentos, desde o recrutamento até o
-            desenvolvimento contínuo, oferecendo ferramentas simples e inteligentes para ajudar seu negócio a
-            prosperar.
+            Valorizamos a diversidade de pensamentos e experiências, pois sabemos que isso é essencial para criar soluções verdadeiramente impactantes. Buscamos sempre o equilíbrio entre produtividade e bem-estar, promovendo um espaço saudável e acolhedor para nossa equipe.
           </p>
+
+          <p>
+            Além disso, incentivamos a aprendizagem contínua, a criatividade e a busca por excelência. Nosso propósito é não apenas transformar a gestão de pessoas, mas também inspirar o mercado com práticas que reforçam a importância da empatia e da inclusão.
+          </p>
+
+          <p>
+            Juntos, construímos uma empresa que cresce ao lado de seus colaboradores, clientes e parceiros, com a certeza de que o sucesso está nas conexões que criamos e nos valores que vivemos.
+          </p>
+
         </div>
 
         <div

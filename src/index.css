@@ -2,15 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+
+html, body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
 body {
-  background: radial-gradient(
-    circle at top right,
-    #7c3aed 10%,
-    #8b5cf6 20%,
-    #a78bfa 30%,
-    #c4b5fd 40%,
-    #ddd6fe 50%,
-    #ede9fe 60%,
-    #f5f3ff 80%
+  background: linear-gradient(
+    120deg,
+    #1e1b4b 10%,
+    #312e81 20%,
+    #3730a3 30%,
+    #4338ca 40%,
+    #4f46e5 50%
   );
 }
