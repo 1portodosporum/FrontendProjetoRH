@@ -1,10 +1,15 @@
 import './App.css'
+import ListarFuncionarios from './components/funcionarios/listarfuncionarios/ListarFuncionarios'
+
 
 function App() {
 
   return (
     <>
-     <p>RH System - Team One</p>
+
+      <ListarFuncionarios />
+      
+      
     </>
   )
 }
