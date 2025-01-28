@@ -1,0 +1,32 @@
+.input {
+    position: relative;
+    margin-bottom: 20px;
+    input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+        border-bottom: 1px solid #aaa;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    label{
+        margin-left: 10px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        font-size: 18px;
+        transition: all 0.3s ease-in-out;
+    }
+    input:focus, textarea:focus {
+        border:none;
+        outline: none;
+    }
+    
+    input:focus + label,
+    input:valid + label {
+    top: -21px;
+    font-size: 16px;
+    }
+}
