@@ -1,9 +1,5 @@
-interface Funcionario {
-    nome: string;
-    cargo: string;
-    foto: string;
-    departamentos?: string;
-}
+import Funcionario from "../../../models/Funcionarios";
+
 
 interface CardFuncionarioProps {
     funcionarios: Funcionario[];
