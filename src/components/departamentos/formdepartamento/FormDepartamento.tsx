@@ -3,7 +3,7 @@ import './FormDepartamento.css';
 const FormDepartamento = () => {
     return (
         <section className="container flex flex-col items-center justify-center mx-auto">
-            <h1 className="text-4xl text-center my-8">Formulario de departamento</h1>
+            <h1 className="text-4xl text-center my-8">Formulario de Departamento</h1>
             <form className="w-1/2 flex flex-col gap-4">
                 <div className='input'>
                     <input type="text"  required/>

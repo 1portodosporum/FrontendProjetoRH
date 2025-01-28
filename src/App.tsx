@@ -1,11 +1,13 @@
 import './App.css'
-import FormDepartamento from './components/departamentos/formdepartamento/FormDepartamento'
+import FormFuncionario from './components/funcionarios/formfuncionarios/FormFuncionario'
 
 function App() {
 
   return (
     <>
-      <FormDepartamento />
+      {/* <FormDepartamento /> */}
+      <FormFuncionario />
+      
     </>
   )
 }
